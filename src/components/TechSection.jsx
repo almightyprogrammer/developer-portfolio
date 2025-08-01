@@ -27,7 +27,7 @@ const TechSection = () => {
       ];
 
     return (
-        <section className="relative flex flex-col items-center justify-center my-auto w-screen p-0 sm:p-2 md:p-2 lg:p-3 gap-8">
+        <section className="relative flex flex-col items-center justify-center my-auto w-screen mb-8 sm:p-2 md:p-2 lg:p-3 gap-8">
             <div>
                 <h2 className="text-center font-bold text-5xl">My Technologies</h2>
             </div>

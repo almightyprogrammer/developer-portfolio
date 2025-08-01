@@ -30,7 +30,7 @@ const Hero = () => {
         setIsDecoding(false);
       }
       
-      iteration += 1/2; 
+      iteration += 1; 
     }, 100);
 
     return () => clearInterval(interval);
@@ -39,7 +39,7 @@ const Hero = () => {
   return (
     <>
       <section className="relative flex items-center justify-center my-auto w-screen h-screen">
-        <div className="absolute top-2 right-2">
+        <div className="absolute top-2 right-2 flex flex-row gap-2 justify-center items-center">
             <a
                 href="https://github.com/almightyprogrammer"
                 target="_blank"
@@ -52,6 +52,26 @@ const Hero = () => {
                 height={30} 
             />
             </a>
+
+            <a href="mailto:lehman0308@gmail.com?subject=Inquiry from your website">
+            <Image
+                src="/icons/gmail.svg"
+                alt="Gmail Icon"
+                width={30}
+                height={22}
+            />
+            </a>
+
+            <a href="https://www.linkedin.com/in/hanjws/" target="_blank" rel="noopener noreferrer">
+            <Image
+                src="/icons/LinkedIn_icon.svg"
+                alt="Linkedin Icon"
+                width={30}
+                height={30}
+            />
+            </a>
+
+            
 
         </div>
         <div className="max-w-7xl px-4 py-4 flex flex-col items-center justify-center">
