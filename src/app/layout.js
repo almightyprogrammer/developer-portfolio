@@ -7,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${GeistSans.className} graph-grid-background`}>
+      <body className={`${GeistSans.className} graph-grid-background mx-2`}>
         {children}
       </body>
     </html>

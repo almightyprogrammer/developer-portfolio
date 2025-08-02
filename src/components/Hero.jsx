@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 const Hero = () => {
-  const finalText = "Hi I'm Juwon";
+  const finalText = "Hi, I'm Juwon";
   const [displayText, setDisplayText] = useState('');
   const [isDecoding, setIsDecoding] = useState(true);
   
@@ -48,8 +48,8 @@ const Hero = () => {
             <Image
                 src="/icons/github-svgrepo-com.svg" 
                 alt="GitHub Icon"
-                width={30} 
-                height={30} 
+                width={45} 
+                height={45} 
             />
             </a>
 
@@ -57,8 +57,8 @@ const Hero = () => {
             <Image
                 src="/icons/gmail.svg"
                 alt="Gmail Icon"
-                width={30}
-                height={22}
+                width={45}
+                height={33}
             />
             </a>
 
@@ -66,8 +66,8 @@ const Hero = () => {
             <Image
                 src="/icons/LinkedIn_icon.svg"
                 alt="Linkedin Icon"
-                width={30}
-                height={30}
+                width={45}
+                height={45}
             />
             </a>
 

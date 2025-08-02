@@ -27,7 +27,7 @@ const TechSection = () => {
       ];
 
     return (
-        <section className="relative flex flex-col items-center justify-center my-auto w-screen mb-8 sm:p-2 md:p-2 lg:p-3 gap-8">
+        <section className="relative flex flex-col items-center justify-center my-auto w-screen mb-8 p-4 gap-8">
             <div>
                 <h2 className="text-center font-bold text-5xl">My Technologies</h2>
             </div>
@@ -45,7 +45,7 @@ const TechSection = () => {
                             alt={tech.alt}
                             width={80}
                             height={80}
-                            className={`transition-transform duration-300 ease-in-out ${hoveredIndex === index ? 'scale-165' : ''} transform-gpu transform-origin-bottom`} />
+                            className={`transition-transform duration-150 ease-in-out ${hoveredIndex === index ? 'scale-165' : ''} transform-gpu transform-origin-bottom`} />
                     </div>
                 ))}
             </div>
