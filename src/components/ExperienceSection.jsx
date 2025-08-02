@@ -89,7 +89,7 @@ const ExperienceSection = () => {
                                     The University of Auckland
                                 </h3>
                                 <h3 className="text-xl">
-                                    Scholarship Summer Researcher
+                                    Summer Scholarship Researcher
                                 </h3>
                                 <h3>
                                     <em>Dec 2023 - Mar 2024</em>
